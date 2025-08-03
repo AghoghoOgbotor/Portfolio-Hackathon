@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!--Link to the CSS file-->
+    <link rel="stylesheet" href="./index.css">
+    <!--google poppins font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!--The Navigation Bar-->
+            <nav>
+                <div class="navbar">
+                    <h2 class="logo">Portfolio.</h2>
+                    <!--Mobile Menu Toggle-->
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                    <label for="menu-toggle" class="menu-bar">
+                        <!-- To get the 3 lines menu bar -->
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <div class="blur-overlay"></div>
+                    <!--Navigation Links-->
+                    <ul class="nav-links">
+                        <li><a href="#about" class="nav-link" id="default">About</a></li>
+                        <li><a href="#education" class="nav-link">Education</a></li>
+                        <li><a href="#interest" class="nav-link">Interest</a></li>
+                        <li><a href="#project" class="nav-link">Projects</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </header>
+        
+        <main>
+            <!-- ABOUT SECTION -->
+            <section class="about-section" id="about">
+                <div class="section-content">
+                    <div class="about-image">
+                        <img src="./Images/about-img.png" alt="portfolio image" id="my-image">
+                    </div>
+                    <div class="about-me">
+                        <h2>Hi! I'm <span>Aghogho Ogbotor</span></h2>
+                        <h3>I'm a <span>Web Developer</span></h3>
+                        <p>I specialize in creating stunning, innovative, functional and User-Friendly Websites for Digital Solution.</p>
+                        <button><a href="#contact">Contact Me</a></button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EDUCATIONAL BACKGROUND-->
+            <section class="education-section" id="education">
+                <div class="section-content">
+                    <h2 class="section-title">Education & Skills</h2>
+                    <div class="education-grid">
+                        <!--Universtiy Education-->
+                        <div class="education-card">
+                            <div class="card-header">
+                                <h3 class="degree">B.Sc Computer Science</h3>
+                                <span class="year">2018 - 2023</span>
+                            </div>
+                            <p class="institution">Federal University of Petroleum Resources, Effurun</p>
+                            <h4 class="skills-title">Skills</h4>
+                            <div class="skill">
+                                <div class="skill-name">
+                                    <span>HTML</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress:60%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">
+                                    <span>CSS</span>
+                                    <span>40%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress:40%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">
+                                    <span>JavaScript</span>
+                                    <span>20%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress:20%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">
+                                    <span>UI/UX Design</span>
+                                    <span>30%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress:30%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--BootCamp Education-->
+                        <div class="education-card">
+                            <div class="card-header">
+                                <h3 class="degree">Software Engineering</h3>
+                                <span class="year">2025 - Present</span>
+                            </div>
+                            <p class="institution">Power Learn Project Africa Academy</p>
+                            <h4 class="skills-title">Skills</h4>
+                            <div class="skill">
+                                <div class="skill-name">
+                                    <span>Web Development</span>
+                                    <span>30%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress:30%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">
+                                    <span>Python Programming</span>
+                                    <span>20%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress:20%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">
+                                    <span>DataBase Designing and SQL Programming</span>
+                                    <span>25%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress:25%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-cv">
+                        <button class="cv-btn"><a href="./Images/Aghogho~Ogbotor. Resume.pdf" download>Download CV</a></button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- INTEREST SECTION -->
+            <section class="interest-section" id="interest">
+                <div class="section-content">
+                    <h2 class="section-title">My Interests</h2>
+                    <div class="interest-grid">
+                        <!--First interest box-->
+                        <div class="interest-box">
+                            <div class="box-header">
+                                <div class="box-icon">
+                                    <img src="./Images/brain-image.png" width="40px">
+                                </div>
+                                <h3 class="box-title">Emerging Tech</h3>
+                            </div>
+                            <p class="box-desc">
+                                Tracking breakthroughs throughs in quantum computing, neural interfaces, and post-silicon architectures.
+                            </p>
+                            <ul class="innovation-list">
+                                <li class="innovation-item">Bio-digital Interfaces</li>
+                                <li class="innovation-item">Self-assembling nanomaterials</li>
+                                <li class="innovation-item">Neuromorphic chips</li>
+                            </ul>
+                        </div>
+                        <!--Second Interest Box-->
+                        <div class="interest-box">
+                            <div class="box-header">
+                                <div class="box-icon">
+                                    <img src="./Images/robot-image.png" width="20px">
+                                </div>
+                                <h3 class="box-title">AI Evolution</h3>
+                            </div>
+                            <p class="box-desc">
+                                Exploring emergent behaviors in foundation models and ethical alignment frameworks.
+                            </p>
+                            <ul class="innovation-list">
+                                <li class="innovation-item">Multi-agent systems</li>
+                                <li class="innovation-item">Constitutional AI</li>
+                                <li class="innovation-item">Neuro-symbolic integration</li>
+                            </ul>
+                        </div>
+                        <!--Third interest box-->
+                        <div class="interest-box">
+                            <div class="box-header">
+                                <div class="box-icon">
+                                    <img src="./Images/web-image.png" width="30px">
+                                </div>
+                                <h3 class="box-title">Web3 Frontiers</h3>
+                            </div>
+                            <p class="box-desc">
+                                Experimenting with decentralized identity systems and trustless coordination protocols.
+                            </p>
+                            <ul class="innovation-list">
+                                <li class="innovation-item">Zero-knowledge proofs</li>
+                                <li class="innovation-item">DAO governance</li>
+                                <li class="innovation-item">IPFS content addressing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+
+            <!-- PROJECT SECTION -->
+            <section class="project-section" id="project">
+                <div class="section-content">
+                    <h2 class="section-title">My Projects</h2>
+                    <div class="project-grid">
+                        <!-- First Project -->
+                        <div class="project-box">
+                            <img src="./Images/project1-image.PNG" alt="form image" class="project-image">
+                            <div class="about-project">
+                                <h3 class="box-title">E-commerce Product Page</h3>
+                                <p>A clean responsive e-commerce product page built using HTML and CSS only.</p>
+                                <button class="project-button"><a href="https://github.com/AghoghoOgbotor/e-commerce-product-page" target="_blank">View Code</a></button>
+                            </div>
+                        </div>
+                        <!-- Second project -->
+                        <div class="project-box">
+                            <img src="./Images/project2-image.PNG" alt="form image" class="project-image">
+                            <div class="about-project">
+                                <h3 class="box-title">Neumorphic Contact Form</h3>
+                                <p>A contact form with a 3D neumorphic design with smooth her and focus effects built using HTML and CSS only</p>
+                                <button class="project-button"><a href="https://github.com/AghoghoOgbotor/Neumorphic-Contact-Page" target="_blank">View Code</a></button>
+                            </div>
+                        </div>
+                        <!-- third project -->
+                        <div class="project-box">
+                            <img src="./Images/project3-image.PNG" alt="form image" class="project-image">
+                            <div class="about-project">
+                                <h3 class="box-title">Travel Landing Page</h3>
+                                <p>The Wanderlust Travel Landing Page is a responsive website with a hero section, destinated cards, testimonials, a nrwsletter form and a booking form using HTML and CSS only.</p>
+                                <button class="project-button"><a href="https://github.com/AghoghoOgbotor/Travel-Landing-Page" target="_blank">View Code</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--CONTACT SECTION-->
+            <section class="contact-section" id="contact">
+                <div class="section-content">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="contact-form">
+                        <div class="contact-details">
+                            <p id="info">Got a project or idea? I'd love to hear from you.</p>
+                            <div class="contact-info">
+                                <p><strong>Email:</strong> aghoghoogbotor@gmail.com</p>
+                                <p><strong>Phone:</strong> +2348026930078</p>
+                            </div>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/share/1CjaQVvJvB/?mibextid=wwXlfr" target="_blank" class="icon facebook" aria-label="Facebook"></a>
+                                <a href="https://x.com/sylvi_bae?s=21" target="_blank" class="icon twitter" aria-label="Twitter"></a>
+                                <a href="https://www.instagram.com/ogbotoraghogho?igsh=MXAwbWw1eDdzNWt2Ng%3D%3D&utm_source=qr" target="_blank" class="icon instagram" aria-label="Instagram"></a>
+                                <a href="https://www.linkedin.com/in/aghogho-ogbotor-a5a62b224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="icon linkedin" aria-label="LinkedIn"></a>
+                            </div>
+                        </div>
+                        <form action="">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" required placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" id="email" required class="form-control" placeholder="Your email">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" required class="form-control" placeholder="Message Subject">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" class="form-control" required placeholder="Your message"></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        <div class="success-message">Message Sent Successfully</div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>&copy Ogbotor Aghogho. Built with pure HTML and CSS | All Rights Reserved.</p>
+        </footer>          
+</body>
+</html>
