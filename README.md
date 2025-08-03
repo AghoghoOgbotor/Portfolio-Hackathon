@@ -30,7 +30,8 @@ A responsive, interactive portfolio built with pure HTML/CSS. No JavaScript requ
 ## 📬 Connect 
 <a href="https://www.linkedin.com/in/aghogho-ogbotor-a5a62b224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> 
   LinkedIn
-</a> 
+</a>
+<br>
 <a href="https://twitter.com/sylvi_bae?s=21"> 
   Twitter 
 </a> 
